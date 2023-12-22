@@ -1,0 +1,25 @@
+[
+        {
+           "marque":"Flat",
+           "annee":"1960",
+           "type":"Utilitaire",
+           "etat":"Ancien",
+           "description":"",
+           "image":"asset/1950-500.jpg"
+        },
+        {
+            "marque":"Delorean",
+            "annee":"1982",
+            "type":"Ancien",
+            "description":"",
+            "image":"asset/delorean.jpg"
+         },
+         {
+            "marque":"Ford-Mustang",
+            "annee":"1977",
+            "type":"Sport",
+            "etat":"Ancien",
+            "description":"",
+            "image":"asset/ford.jpg"
+         }
+    ]

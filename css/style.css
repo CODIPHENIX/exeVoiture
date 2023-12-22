@@ -1,0 +1,41 @@
+@import url('./reset.css');
+
+:root{
+    --backgroundcolor: #2F2F2F;
+    --secondarycolor: #4774C2;
+    --textcolor:#FFF;
+    --secchangebox: #99B2DD;
+}
+body{
+    background-color: var(--backgroundcolor);
+}
+header h1{
+    text-align: center;
+    padding: 0.5%;
+    color: var(--textcolor);
+    background-color: var(--secondarycolor);
+}
+section{
+    margin: 5rem auto;
+    width: 80%;
+    background-color: var(--secondarycolor);
+}
+section p{
+    background-color: var(--backgroundcolor);
+    color: var(--textcolor);
+    text-align: justify;
+    text-justify: auto;
+    padding-bottom: 1%;
+}
+li{
+    padding: 1%;
+}
+ul  :nth-child(2n){
+    background-color: var(--secchangebox);
+}
+footer p{
+    text-align: center;
+    color: var(--textcolor) ;
+}
+
+
